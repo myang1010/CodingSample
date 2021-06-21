@@ -22,7 +22,7 @@ class Api::V1::TestController < ApplicationController
             else
                 (string.length/3).times do
                     result += string[i]
-                    i += 3  # use i as index number to get every thrid letter
+                    i += 3  # use i as index number to get every third letter
                 end
             end      
             return result    
